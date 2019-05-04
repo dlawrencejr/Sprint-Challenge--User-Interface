@@ -191,10 +191,17 @@ img.about.top-img{
     margin: 10px 20px 20px 0px;
     border-bottom: 1px dashed;
 }
+@keyframes fade {
+    from {background-color: white; color: black;}
+    to {background-color: black; color: gold;}
+  }
 
-.card button{
+.card button:hover{
+    cursor: pointer;
     padding: 10px 20px;
     border-radius: 10px;
     border: 2px solid black;
     margin-bottom: 20px;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
