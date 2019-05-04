@@ -70,7 +70,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px;
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 40px;
+}
 
+.container img{
+    margin-bottom: 10px;
+}
 
 .top-content {
     display: flex;
@@ -144,4 +164,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+img.about.top-img{
+    margin: 10px 0px 10px 0px;
 }
