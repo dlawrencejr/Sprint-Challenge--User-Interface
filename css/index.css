@@ -133,6 +133,7 @@ header nav a{
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -168,4 +169,32 @@ footer nav a {
 
 img.about.top-img{
     margin: 10px 0px 10px 0px;
+}
+.container.about-page p{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+.mid-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 103%;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: flex;
+    width: 380px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 20px 20px 0px;
+    border-bottom: 1px dashed;
+}
+
+.card button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
