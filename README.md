@@ -38,7 +38,7 @@ A way of letting both computer and user know how your code is meant to be read.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+block: height and width affect the element. Inline: doesnt mess with other elements while being nested.
 
 3. What are the 4 areas of the box model?
 
@@ -50,7 +50,7 @@ cross-axis
 
 5. Explain why git is valuable to a team of developers.
 
-
+Git is valuable in the fact that it allows developers to manage the work that has been done to a project, they are able to see the different changes that are made to a project. It spotlights for the next person who starts a project so they dont have to work on the same code that has been implemented.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
